@@ -25,17 +25,17 @@ Student::Student(int a, string dg) :
     cout << age << endl << name_dog << endl << " " << endl;
 }
 
-void Student::setName(string n) {
+void Student::setName(string n) { // not using
     name = n;
     cout << name;
 }
 
-void Student::getRating(int r) {
+void Student::getRating(int r) {     // not using
     rating = r;
     cout << rating;
 }
 
-void Student::getGrowth(double g) {
+void Student::getGrowth(double g) { // not using
     growth = g;
     cout << growth;
 }

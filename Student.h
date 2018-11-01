@@ -22,7 +22,7 @@ public:
     Student(int , int);
     Student(int , string );
 
-    void setName(string n);
+    void setName(string n); //working, but ne nuzno
 
     void getRating(int r);
 
