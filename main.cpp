@@ -10,6 +10,6 @@ int main() {
 
     Student studentOBJ2 (66, 4);
 
-    Student studentObJ3 (23, "BOB");  //done
+    Student studentObJ3 (23, "BOB");  //done 1
     return 0;
 }
