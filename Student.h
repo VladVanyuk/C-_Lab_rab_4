@@ -22,11 +22,11 @@ public:
     Student(int , int);
     Student(int , string );
 
-    void setName(string n); //working, but ne nuzno
+    void setName(string n); //working, but not used
 
-    void getRating(int r);
+    void getRating(int r); // working, but not used
 
-    void getGrowth(double g);
+    void getGrowth(double g); // working, but not used
 
     ~Student();
 private:
