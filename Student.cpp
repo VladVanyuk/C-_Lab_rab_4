@@ -35,7 +35,7 @@ void Student::getRating(int r) {     // not using function
     cout << rating;
 }
 
-void Student::getGrowth(double g) { // not using function
+void Student::getGrowth(double g) { // not using function.
     growth = g;
     cout << growth;
 }
