@@ -6,10 +6,10 @@
 using namespace std;
 
 int main() {
-    Student studentObj ("Vlados" , 51 , 3.20);
+    Student studentOBJ_1 ("Vlados" , 51 , 3.20); //first student
 
-    Student studentOBJ2 (66, 4);
+    Student studentOBJ_2 (66, 4); //second student
 
-    Student studentObJ3 (23, "BOB");  //done 1
+    Student studentOBJ_3 (23, "BOB");  //third student
     return 0;
 }

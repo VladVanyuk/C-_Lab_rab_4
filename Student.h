@@ -15,24 +15,24 @@ using namespace std;
 class Student {
 
 public:
-    int age;
-    string name_dog;
+    int age_student;
+    string name_dog_student;
 
     Student(string  , int  , double );
     Student(int , int);
     Student(int , string );
 
-    void setName(string n); //working, but not used
+    void setNameStudent(string n); //working, but not used
 
-    void getRating(int r); // working, but not used
+    void getRatingStudent(int r); // working, but not used
 
-    void getGrowth(double g); // working, but not used
+    void getGrowthStudent(double g); // working, but not used
 
     ~Student();
 private:
-    string name;
-    int rating;
-    double growth;
+    string name_student;
+    int rating_student;
+    double growth_student;
 
 protected:
     int num_of_marks;

@@ -9,9 +9,9 @@
 using namespace std;
 
 Student::Student(string n , int r , double g):
-        name(n), rating(r) , growth(g)
+        name_student(n), rating_student(r) , growth_student(g)
 {
-    cout << name << endl << rating << endl << growth << endl << " " << endl;
+    cout << name_student << endl << rating_student << endl << growth_student << endl << " " << endl;
 }
 
 Student::Student(int m, int b):
@@ -20,24 +20,24 @@ Student::Student(int m, int b):
     cout << num_of_marks << endl << bad_marks << endl << " "<< endl;
 }
 Student::Student(int a, string dg) :
-        age(a), name_dog(dg)
+        age_student(a), name_dog_student(dg)
 {
-    cout << age << endl << name_dog << endl << " " << endl;
+    cout << age_student << endl << name_dog_student << endl << " " << endl;
 }
 
-void Student::setName(string n) { // not using function
-    name = n;
-    cout << name;
+void Student::setNameStudent(string n) { // not using function
+    name_student = n;
+    cout << name_student;
 }
 
-void Student::getRating(int r) {     // not using function
-    rating = r;
-    cout << rating;
+void Student::getRatingStudent(int r) {     // not using function
+    rating_student = r;
+    cout << rating_student;
 }
 
-void Student::getGrowth(double g) { // not using function.
-    growth = g;
-    cout << growth;
+void Student::getGrowthStudent(double g) { // not using function.
+    growth_student = g;
+    cout << growth_student;
 }
 
 
